@@ -1,0 +1,148 @@
+.bodyCont{
+    height: 2200px;
+    width: 1200px;
+}
+
+.beer{
+    color: red;
+    text-shadow: 2.5px 2.5px rgb(242, 243, 163) ;
+}
+.mainimg{
+   margin-top: 40px;
+    margin-left: 75px;
+  border-radius: 20%;
+  font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4d5968;
+    padding-right: 150px;
+}
+/* .mainimg:hover{
+    image-resolution: 20px;
+} */
+.quote{
+    /* padding-right: 50px; */
+   
+   font-family: 'Nunito Sans', -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial, sans-serif;
+   
+   font-size: 20px;
+   font-style: oblique;
+   
+}
+h3{
+    margin-left:70px;
+    font-size: 25px;
+}
+.header{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    
+}
+.logo{
+    width: 75px;
+    height:75px;
+    
+    
+}
+.gif{
+    
+   
+    position: relative;
+    left: 50px;
+}
+.gifimg{
+    width:85px;
+}
+a{
+   color: rgb(236, 214, 13); 
+   
+}
+.home ,.quot ,.ytube{
+    padding-top: 23px;
+}
+a:link {
+    text-decoration: none;
+  }
+a:hover{
+    color: white;
+}
+  .i{
+      width: 75px;
+      height: 75px;
+      margin-left: 80px;
+
+  }
+
+
+
+  .s1:hover{
+      background-color: thistle;
+  }
+.bottle{
+    
+    height: 300px;
+    margin-left: 420px;
+    transition: transform .2s;
+}
+.bottle:hover{
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(0.5); 
+}
+
+.bottle:hover +.bp{
+    display: block;
+}
+
+.bp{
+    display: none;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+
+/* .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+
+
+
+.img2{
+  width: 300px;
+  height: 270px;
+  border-radius: 2%;
+}
+.div{
+    display: grid;
+    grid-template-columns: 250px auto;
+    margin-top: 40px;
+}
+
+.img3{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto 250px;
+}
+.desc1{
+    margin-left: 65px;
+}
+.h21{
+    margin-top: 10px;
+    color: #333333;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    color: #333333;
+    background: #FFFFFF;
+}
+.h22{
+    margin-top: 10px;
+
+    color: #333333;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    color: #333333;
+    background: #FFFFFF;
+}
+
